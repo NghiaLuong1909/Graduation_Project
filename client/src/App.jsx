@@ -58,7 +58,8 @@ const App = () => {
           </Route>
         </Routes>
       </BrowserRouter>
-      {/* app routes */}
+      {/* app routes */} 
+      {/*  */}
     </ThemeProvider>
   );
 };

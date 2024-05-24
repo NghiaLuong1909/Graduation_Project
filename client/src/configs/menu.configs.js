@@ -10,7 +10,7 @@ const main = [
   {
     display: "home",
     path: "/",
-    icon: <HomeOutlinedIcon />,
+    icon: <HomeOutlinedIcon />, //
     state: "home"
   },
   {

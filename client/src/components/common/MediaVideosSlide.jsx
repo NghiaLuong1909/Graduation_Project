@@ -21,7 +21,7 @@ const MediaVideo = ({ video }) => {
         ref={iframeRef}
         width="100%"
         title={video.id}
-        style={{ border: 0 }}
+        style={{ border: "2px" }}
       ></iframe>
     </Box>
   );

@@ -31,7 +31,7 @@ import MediaSlide from "../components/common/MediaSlide";
 import MediaReview from "../components/common/MediaReview";
 
 const MediaDetail = () => {
-  const { mediaType, mediaId } = useParams();
+  const { mediaType, mediaId } = useParams(); //
 
   const { user, listFavorites } = useSelector((state) => state.user);
 

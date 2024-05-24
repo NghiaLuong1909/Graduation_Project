@@ -14,7 +14,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import { routesGen } from "../routes/routes";
 
 const ReviewItem = ({ review, onRemoved }) => {
-  const [onRequest, setOnRequest] = useState(false);
+  const [onRequest, setOnRequest] = useState(false); //
 
   const onRemove = async () => {
     if (onRequest) return;

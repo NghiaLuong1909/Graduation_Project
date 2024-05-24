@@ -21,8 +21,8 @@ const Container = ({ header, children }) => {
               position: "absolute",
               left: { xs: "20px", md: "0" },
               top: "100%",
-              height: "5px",
-              width: "100px",
+              height: "4px",
+              width: "110px",
               backgroundColor: "primary.main"
             }
           }}>

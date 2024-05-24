@@ -12,7 +12,7 @@ import { setGlobalLoading } from "../redux/features/globalLoadingSlice";
 import { removeFavorite } from "../redux/features/userSlice";
 
 const FavoriteItem = ({ media, onRemoved }) => {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch(); //
 
   const [onRequest, setOnRequest] = useState(false);
 

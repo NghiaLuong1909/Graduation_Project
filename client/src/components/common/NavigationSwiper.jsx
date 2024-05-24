@@ -7,7 +7,7 @@ const NavigationSwiper = ({ children }) => {
     <Box sx={{
       "& .swiper-slide": {
         width: "100%",
-        opacity: "0.6",
+        opacity: "0.5",
         paddingBottom: "3rem"
       },
       "& .swiper-slide-active": { opacity: 1 },

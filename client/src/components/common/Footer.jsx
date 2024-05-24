@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <Container>
-      <Paper square={true} sx={{ backgroundImage: "unset", padding: "2rem" }}>
+      <Paper square={true} sx={{ backgroundImage: "unset", padding: "1rem" }}>
         <Stack
           alignItems="center"
           justifyContent="space-between"

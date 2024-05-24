@@ -71,5 +71,5 @@ const routes = [
     element: <MediaDetail />
   }
 ];
-
+//
 export default routes;

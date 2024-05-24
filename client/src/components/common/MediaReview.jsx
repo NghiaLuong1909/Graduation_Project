@@ -28,7 +28,7 @@ const ReviewItem = ({ review, onRemoved }) => {
   return (
     <Box sx={{
       padding: 2,
-      borderRadius: "5px",
+      borderRadius: "4px",
       position: "relative",
       opacity: onRequest ? 0.6 : 1,
       "&:hover": { backgroundColor: "background.paper" }

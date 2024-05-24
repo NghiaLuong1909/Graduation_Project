@@ -49,8 +49,8 @@ const MediaItem = ({ media, mediaType }) => {
                 color="primary"
                 sx={{
                   position: "absolute",
-                  top: 2,
-                  right: 2,
+                  top: 5,
+                  right: 5,
                   fontSize: "2rem"
                 }}
               />

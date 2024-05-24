@@ -117,7 +117,7 @@ const SignupForm = ({ switchAuthState }) => {
 
       <Button
         fullWidth
-        sx={{ marginTop: 1 }}
+        sx={{ marginTop: 2 }}
         onClick={() => switchAuthState()}
       >
         sign in

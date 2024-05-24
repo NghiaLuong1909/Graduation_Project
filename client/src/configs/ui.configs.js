@@ -22,7 +22,7 @@ const uiConfigs = {
       overflow: "hidden",
       WebkitBoxOrient: "vertical",
       WebkitLineClamp: lines
-    }),
+    }), //
     mainContent: {
       maxWidth: "1366px",
       margin: "auto",

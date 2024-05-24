@@ -5,9 +5,9 @@ import MediaItem from "./MediaItem";
 const RecommendSlide = ({ medias, mediaType }) => {
   return (
     <AutoSwiper>
-      {medias.map((media, index) => (
+      {medias.map((item, index) => (
         <SwiperSlide key={index}>
-          <MediaItem media={media} mediaType={mediaType} />
+          <MediaItem media={item} mediaType={mediaType} />
         </SwiperSlide>
       ))}
     </AutoSwiper>

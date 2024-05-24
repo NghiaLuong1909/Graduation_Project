@@ -93,7 +93,7 @@ const SigninForm = ({ switchAuthState }) => {
       </Button>
 
       {errorMessage && (
-        <Box sx={{ marginTop: 2 }}>
+        <Box sx={{ marginTop: 1 }}>
           <Alert severity="error" variant="outlined" >{errorMessage}</Alert>
         </Box>
       )}

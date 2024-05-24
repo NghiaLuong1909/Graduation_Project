@@ -51,14 +51,14 @@ const Sidebar = ({ open, toggleSidebar }) => {
             </Typography>} />
           </ListItemButton>
         ))}
-
+        
         {user && (<>
           <Typography variant="h6" marginBottom="20px">PERSONAL</Typography>
           {menuConfigs.user.map((item, index) => (
             <ListItemButton
               key={index}
               sx={{
-                borderRadius: "10px",
+                borderRadius: "12px",
                 marginY: 1,
                 backgroundColor: appState.includes(item.state) ? "primary.main" : "unset"
               }}

@@ -72,7 +72,7 @@ const MediaList = () => {
     if (currCategory === categoryIndex) return;
     setMedias([]);
     setCurrPage(1);
-    setCurrCategory(categoryIndex);
+    setCurrCategory(categoryIndex); //
   };
 
   const onLoadMore = () => setCurrPage(currPage + 1);

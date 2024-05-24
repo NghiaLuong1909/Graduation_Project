@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import MediaItem from "./MediaItem";
 
 const MediaSlide = ({ mediaType, mediaCategory }) => {
-  const [medias, setMedias] = useState([]);
+  const [media, setMedia] = useState([]);
 
   useEffect(() => {
     const getMedias = async () => {
@@ -16,7 +16,7 @@ const MediaSlide = ({ mediaType, mediaCategory }) => {
         page: 1
       });
 
-      if (response) setMedias(response.results);
+      if (response) setMedia(response.results);
       if (err) toast.error(err.message);
     };
 
@@ -25,7 +25,7 @@ const MediaSlide = ({ mediaType, mediaCategory }) => {
 
   return (
     <AutoSwiper>
-      {medias.map((media, index) => (
+      {media.map((media, index) => (
         <SwiperSlide key={index}>
           <MediaItem media={media} mediaType={mediaType} />
         </SwiperSlide>

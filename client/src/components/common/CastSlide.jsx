@@ -9,7 +9,7 @@ const CastSlide = ({ casts }) => {
   return (
     <Box sx={{
       "& .swiper-slide": {
-        width: { xs: "50%", md: "25%", lg: "20.5%" },
+        width: { xs: "50%", md: "25%", lg: "20%" },
         color: "primary.contrastText"
       }
     }}>

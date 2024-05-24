@@ -13,7 +13,7 @@ import { setGlobalLoading } from "../redux/features/globalLoadingSlice";
 const PersonDetail = () => {
   const { personId } = useParams();
   const [person, setPerson] = useState();
-  const dispatch = useDispatch();
+  const dispatch = useDispatch(); //
 
   useEffect(() => {
     const getPerson = async () => {

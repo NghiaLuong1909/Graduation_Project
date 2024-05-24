@@ -16,8 +16,8 @@ const ImageHeader = ({ imgPath }) => {
       "&::before": {
         content: '""',
         position: "absolute",
-        left: 0,
-        bottom: 0,
+        left: "0px",
+        bottom: "0px",
         width: "100%",
         height: "100%",
         pointerEvents: "none",

@@ -34,11 +34,11 @@ const AuthModal = () => {
         left: "50%",
         transform: "translate(-50%, -50%)",
         width: "100%",
-        maxWidth: "600px",
+        maxWidth: "650px",
         padding: 4,
         outline: "none"
       }}>
-        <Box sx={{ padding: 4, boxShadow: 24, backgroundColor: "background.paper" }}>
+        <Box sx={{ padding: 4, boxShadow: 24, backgroundColor: "#3d3d3d", borderRadius: '16px' }}>
           <Box sx={{ textAlign: "center", marginBottom: "2rem" }}>
             <Logo />
           </Box>

@@ -103,7 +103,7 @@ const PasswordUpdate = () => {
               sx={{ marginTop: 4 }}
               loading={onRequest}
             >
-              update password
+              Update Password
             </LoadingButton>
           </Stack>
         </Box>

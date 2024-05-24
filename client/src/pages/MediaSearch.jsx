@@ -101,7 +101,7 @@ const MediaSearch = () => {
               loading={onSearch}
               onClick={() => setPage(page + 1)}
             >
-              load more
+              Load More
             </LoadingButton>
           )}
         </Stack>
